@@ -10,7 +10,7 @@ def download_button_logic(items_list: object, customer_name: object) -> None:
         pdf.set_font("Arial", 'B', 16)
 
         # Header
-        pdf.cell(200, 10, txt="INVOICE / BILL", ln=True, align='C')
+        pdf.cell(200, 10, txt="Urmila Traders", ln=True, align='C')
         pdf.set_font("Arial", size=12)
         pdf.cell(200, 10, txt=f"Customer Name: {customer_name}", ln=True, align='L')
         now = datetime.now()
@@ -50,4 +50,5 @@ def download_button_logic(items_list: object, customer_name: object) -> None:
             label="📥 Download PDF Bill",
             data=pdf_output,
             file_name=f"Bill_{customer_name}.pdf",
+
             )
