@@ -51,9 +51,10 @@ with st.expander("calculator"):
 st.sidebar.markdown("....")
 st.sidebar.subheader(" connect with me on Social media ")
 st.sidebar.link_button("Instagram","https://instagram.com/bantimishra13")
-st.sidebar.link_button("Youtube","https://youtube.com/yuva_e_jaunpur_ayush_18")
+st.sidebar.link_button("Youtube","https://youtube.com/@bantimishra5164")
 st.sidebar.link_button("facebook","https://www.facebook.com/share/1KNUwJro3c/")
 st.sidebar.link_button("whatsapp","https://wa.me/918756085720")
 st.sidebar.subheader("Thanks you for visiting us")
 
 st.sidebar.subheader("Welcome to our Digital Space! 🚀 > Connect with us on Facebook for the latest updates, behind-the-scenes, and much more. Click the link below to join our community!")
+
