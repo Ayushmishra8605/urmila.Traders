@@ -3,7 +3,9 @@ from groq import Groq  # 'import groq' ki jagah ye zaroori hai
 
 def run_chatbot(api_key):
     # Sahi tarika: Groq client banana
-    client = Groq(api_key=api_key) 
+    client = Groq(api_key=api_key)
+    with st.popover("chats with AI Assistant"):
+        
     
     st.divider()
     st.subheader("Urmila Traders AI Assistant")
@@ -32,3 +34,4 @@ def run_chatbot(api_key):
                 st.session_state.messages.append({"role": "assistant", "content": response})
             except Exception as e:
                 st.error(f"Chatbot Error: {e}")
+
