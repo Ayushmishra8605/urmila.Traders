@@ -4,7 +4,7 @@ import google.generativeai as genai
 def run_chatbot(api_key):
     # Gemini Setup
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-1.5-flash-latest')
+    model = genai.GenerativeModel('gemini-1.5-flash')
 
     st.divider()
     st.subheader("Urmila Traders AI Assistant")
@@ -31,4 +31,5 @@ def run_chatbot(api_key):
             except Exception as e:
 
                 st.error(f"Error: {e}")
+
 
