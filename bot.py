@@ -3,8 +3,8 @@ import groq
 
 def run_chatbot(api_key):
     # Gemini Setup
-    groq.configure(api_key=api_key)
-    model = groq.GenerativeModel('llama-3.370b-versatil')
+   client=Groq(api_key=api_key)
+    model ='llama-3.370b-versatil'
 
     st.divider()
     st.subheader("Urmila Traders AI Assistant")
@@ -31,6 +31,7 @@ def run_chatbot(api_key):
             except Exception as e:
 
                 st.error(f"Error: {e}")
+
 
 
 
