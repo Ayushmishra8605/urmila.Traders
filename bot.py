@@ -1,10 +1,10 @@
 import streamlit as st
-import google.generativeai as genai
+import groq
 
 def run_chatbot(api_key):
     # Gemini Setup
-    genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    groq.configure(api_key=api_key)
+    model = groq.GenerativeModel('llama-3.370b-versatil')
 
     st.divider()
     st.subheader("Urmila Traders AI Assistant")
@@ -31,5 +31,6 @@ def run_chatbot(api_key):
             except Exception as e:
 
                 st.error(f"Error: {e}")
+
 
 
