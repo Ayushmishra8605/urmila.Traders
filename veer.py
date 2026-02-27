@@ -1,6 +1,7 @@
 import streamlit as st
 from pdf_utils import download_button_logic
 from bot import run_chatbot
+from style import apply_custom_design
 st.sidebar.image("urmila traders.jpeg",width=200,caption="urmila Trades")
 st.title("Welcome to Urmila traders")
 # 1. Initialize session State (Ye check karein ki ye sahi se likha hai)
@@ -59,6 +60,7 @@ st.sidebar.subheader("Welcome to our Digital Space! 🚀 > Connect with us on Fa
 st.sidebar.markdown("developer: Ayush mishra")
 My_API_KEY = "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"
 run_chatbot(My_API_KEY)
+
 
 
 
