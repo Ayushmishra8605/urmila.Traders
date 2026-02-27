@@ -1,7 +1,6 @@
 import streamlit as st
 from pdf_utils import download_button_logic
 from bot import run_chatbot
-st.sidebar.markdown("developer: Ayush mishra")
 st.sidebar.image("urmila traders.jpeg",width=200,caption="urmila Trades")
 st.title("Welcome to Urmila traders")
 # 1. Initialize session State (Ye check karein ki ye sahi se likha hai)
@@ -55,10 +54,12 @@ st.sidebar.link_button("Youtube","https://youtube.com/@bantimishra5164")
 st.sidebar.link_button("facebook","https://www.facebook.com/share/1KNUwJro3c/")
 st.sidebar.link_button("whatsapp","https://wa.me/918756085720")
 st.sidebar.subheader("Thanks you for visiting us")
-st.sidebar.subheader(" any inquery contect us 918756085720")
+st.sidebar.subheader(" any inquery contect us 8756085720")
 st.sidebar.subheader("Welcome to our Digital Space! 🚀 > Connect with us on Facebook for the latest updates, behind-the-scenes, and much more. Click the link below to join our community!")
+st.sidebar.markdown("developer: Ayush mishra")
 My_API_KEY = "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"
 run_chatbot(My_API_KEY)
+
 
 
 
