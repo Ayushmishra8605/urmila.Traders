@@ -22,4 +22,5 @@ def show_sidebar_content(phone_number):
    # st.sidebar.image("urmila traders.png", width=200)
 
     # Clickable phone number (Blue link)
-    st.sidebar.markdown(f"### Contact Us: [+{phone_number}](tel:{phone_number})")
+
+    st.sidebar.markdown(f"### Contact Us: [+{8756085720}](tel:{phone_number})")
