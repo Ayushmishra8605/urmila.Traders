@@ -3,7 +3,7 @@ from pdf_utils import download_button_logic
 from bot import run_chatbot
 st.sidebar.markdown("developer: Ayush mishra")
 st.title("Welcome to Urmila traders")
-st.image("urmila.jpg",width=200)
+st.image("urmila.jpg",width=100)
 # 1. Initialize session State (Ye check karein ki ye sahi se likha hai)
 if 'items_list' not in st.session_state:
     st.session_state.items_list = []  # Naam badal kar 'items_list' kar diya taaki confusion na ho
@@ -59,6 +59,7 @@ st.sidebar.subheader("Thanks you for visiting us")
 st.sidebar.subheader("Welcome to our Digital Space! 🚀 > Connect with us on Facebook for the latest updates, behind-the-scenes, and much more. Click the link below to join our community!")
 My_API_KEY = "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"
 run_chatbot(My_API_KEY)
+
 
 
 
