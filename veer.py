@@ -56,11 +56,11 @@ st.sidebar.link_button("Youtube","https://youtube.com/@bantimishra5164")
 st.sidebar.link_button("facebook","https://www.facebook.com/share/1KNUwJro3c/")
 st.sidebar.link_button("whatsapp","https://wa.me/918756085720")
 st.sidebar.subheader("Thanks you for visiting us")
-st.sidebar.subheader("for any inquery contect us 
-                     918756085720")
+st.sidebar.subheader(" any inquery contect us 918756085720")
 st.sidebar.subheader("Welcome to our Digital Space! 🚀 > Connect with us on Facebook for the latest updates, behind-the-scenes, and much more. Click the link below to join our community!")
 My_API_KEY = "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"
 run_chatbot(My_API_KEY)
+
 
 
 
